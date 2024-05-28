@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    ports:
+      - 8501:8501
+    env_file:
+      - .env
+    volumes:
+      - ./llm_app:/llm_app
