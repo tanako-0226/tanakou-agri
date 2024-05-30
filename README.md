@@ -1,7 +1,7 @@
 # integrated-training-team-aguri
 チーム「アグリ」のリポジトリ
 
-チームアグリリポジトリのクローン
+チームアグリリポジトリの
 ```
 git clone https://github.com/ds-products/integrated-training-team-aguri.git
 ```
